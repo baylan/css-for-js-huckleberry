@@ -6,7 +6,31 @@
 html,
 body {
   margin: 0;
+  padding: 0 20px;
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 30px 0 ;
   padding: 0;
 }
+p{
+  width: fit-content;
+  background-color: hsl(0deg, 0%, 100%);
+  margin-bottom: 8px;
+}
+strong{
+  font-weight: 600;
+  color: hsl(160deg, 100%, 30%)
+}
+.intro-chunk{width: 35%}
 
-/* Add styles here! */
+.card{
+  padding-top: 64px;
+background-color: hsl(0deg, 0%, 60%);
+}
+.indented-heading{
+  background-color: hsl(45deg, 100%, 50%);
+  padding-left: 64px;
+   margin-left: -16px ;
+}
